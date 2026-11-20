@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=1440"><meta name="robots" content="noindex"><title>D7 หลังบ้าน ลูกค้า · หลังบ้าน D7 (Demo)</title><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><style>
+body{margin:0}a{color:#005E2A}
+.mut{color:#4B5A51}
+.card{background:#fff;border:1px solid #E4E8E5;border-radius:16px;padding:20px;box-sizing:border-box}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;color:#4B5A51;font-weight:600;padding:10px 12px;border-bottom:1px solid #E4E8E5;background:#FAFBFA}
+td{padding:12px;border-bottom:1px solid #EEF1EF}
+.pill{display:inline-block;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600}
+.inp{min-height:40px;padding:0 12px;border:1px solid #C9D1CC;border-radius:10px;font-family:inherit;font-size:14px;background:#fff}
+.btn{min-height:40px;padding:0 16px;border-radius:10px;border:0;background:#005E2A;color:#fff;font-family:inherit;font-size:14px;font-weight:600}
+.btn2{min-height:40px;padding:0 16px;border-radius:10px;border:1px solid #C9D1CC;background:#fff;color:#18201B;font-family:inherit;font-size:14px}
+.kv{display:flex;justify-content:space-between;gap:8px;font-size:14px;padding:6px 0;border-bottom:1px solid #EEF1EF}
+</style><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><style>body{margin:0}</style><style>.demo{background:#18201B;color:#F9F3D9;font:600 13px/1.5 'Noto Sans Thai',system-ui,sans-serif;text-align:center;padding:8px 16px}.demo b{color:#B2CD4A}</style></head><body style="margin:0"><div class="demo" role="note"><b>ระบบหลังบ้านตัวอย่าง (Demo)</b> · ตัวเลขและข้อมูลทั้งหมดเป็นตัวอย่าง ปุ่มยังไม่ทำงานจริง · <a href="../index.html" style="color:#B2CD4A">ไปหน้าร้าน</a></div>
+
+
+<div style="font-family: 'Noto Sans Thai', system-ui, sans-serif; color: #18201B; display: flex; flex-wrap: wrap; min-height: 900px; background: #F6F7F5">
+
+
+<nav aria-label="เมนูหลังบ้าน" style="font-family: 'Noto Sans Thai', system-ui, sans-serif; width: 256px; min-height: 900px; height: 100%; box-sizing: border-box; background: #603814; color: #F9F3D9; padding: 20px 14px; display: flex; flex-direction: column; gap: 4px">
+<div style="display: flex; align-items: center; gap: 10px; padding: 0 8px 20px"><img src="../assets/logo-d7.webp" alt="D7" style="height: 44px; width: auto"><div style="font-weight: 700; font-size: 16px">หลังบ้าน D7</div></div>
+
+
+<a href="index.html" style="min-height: 42px; display: flex; align-items: center; padding: 0 12px; border-radius: 10px; text-decoration: none; font-size: 15px; background: transparent; color: #F9F3D9; font-weight: 400">ภาพรวม</a>
+
+
+<a href="reports.html" style="min-height: 42px; display: flex; align-items: center; padding: 0 12px; border-radius: 10px; text-decoration: none; font-size: 15px; background: transparent; color: #F9F3D9; font-weight: 400">รายงานผู้บริหาร</a>
+
+<div style="padding: 14px 12px 4px; font-size: 12px; color: #DCB981; font-weight: 600">ขาย</div>
+
+
+
+<a href="orders.html" style="min-height: 42px; display: flex; align-items: center; padding: 0 12px; border-radius: 10px; text-decoration: none; font-size: 15px; background: transparent; color: #F9F3D9; font-weight: 400">ออเดอร์ทุกช่องทาง</a>
+
+
+<a href="products.html" style="min-height: 42px; display: flex; align-items: center; padding: 0 12px; border-radius: 10px; text-decoration: none; font-size: 15px; background: transparent; color: #F9F3D9; font-weight: 400">สินค้า</a>
+
+
+<a href="cms.html" style="min-height: 42px; display: flex; align-items: center; padding: 0 12px; border-radius: 10px; text-decoration: none; font-size: 15px; background: transparent; color: #F9F3D9; font-weight: 400">หน้าเว็บ / โปรโมชั่น (CMS)</a>
+
+
+<a href="customers.html" style="min-height: 42px; display: flex; align-items: center; padding: 0 12px; border-radius: 10px; text-decoration: none; font-size: 15px; background: #D9AD28; color: #3A2410; font-weight: 700">ลูกค้า (CRM)</a>
+
+<div style="padding: 14px 12px 4px; font-size: 12px; color: #DCB981; font-weight: 600">ปฏิบัติการ</div>
+
+
+
+<a href="inventory.html" style="min-height: 42px; display: flex; align-items: center; padding: 0 12px; border-radius: 10px; text-decoration: none; font-size: 15px; background: transparent; color: #F9F3D9; font-weight: 400">คลังสินค้า</a>
+
+
+<a href="dispatch.html" style="min-height: 42px; display: flex; align-items: center; padding: 0 12px; border-radius: 10px; text-decoration: none; font-size: 15px; background: transparent; color: #F9F3D9; font-weight: 400">จัดส่ง / เขต</a>
+
+
+<a href="agents.html" style="min-height: 42px; display: flex; align-items: center; padding: 0 12px; border-radius: 10px; text-decoration: none; font-size: 15px; background: transparent; color: #F9F3D9; font-weight: 400">เอเย่นและผลงาน</a>
+
+<div style="padding: 14px 12px 4px; font-size: 12px; color: #DCB981; font-weight: 600">บัญชีและระบบ</div>
+
+
+
+<a href="finance.html" style="min-height: 42px; display: flex; align-items: center; padding: 0 12px; border-radius: 10px; text-decoration: none; font-size: 15px; background: transparent; color: #F9F3D9; font-weight: 400">บัญชี / กระทบยอด</a>
+
+
+<a href="channels.html" style="min-height: 42px; display: flex; align-items: center; padding: 0 12px; border-radius: 10px; text-decoration: none; font-size: 15px; background: transparent; color: #F9F3D9; font-weight: 400">ช่องทางขาย &amp; ขนส่ง</a>
+
+
+<a href="users.html" style="min-height: 42px; display: flex; align-items: center; padding: 0 12px; border-radius: 10px; text-decoration: none; font-size: 15px; background: transparent; color: #F9F3D9; font-weight: 400">ผู้ใช้และสิทธิ์</a>
+
+<div style="margin-top: auto; padding: 16px 12px 0; border-top: 1px solid #7A4A1E; font-size: 13px; color: #DCB981">[ชื่อผู้ใช้] · ฝ่ายขาย / CS</div>
+</nav>
+
+<main style="flex: 999 1 560px; min-width: 0; padding: 24px 32px; display: flex; flex-direction: column; gap: 16px; box-sizing: border-box">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px">
+<h1 style="margin: 0; font-size: 26px">ลูกค้า (CRM)</h1>
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><button class="btn2">ส่งออก (ปิดบังข้อมูลส่วนตัว)</button><button class="btn2">สร้างกลุ่มลูกค้า</button><button class="btn">ส่ง push / คูปองให้กลุ่มนี้</button></div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px">
+<div class="card"><div class="mut" style="font-size: 13px">ลูกค้าทั้งหมด</div><div style="font-size: 26px; font-weight: 700">[12,480]</div><div style="font-size: 12px; color: #005E2A">+[320] เดือนนี้</div></div>
+<div class="card"><div class="mut" style="font-size: 13px">ซื้อซ้ำ (90 วัน)</div><div style="font-size: 26px; font-weight: 700">[34%]</div></div>
+<div class="card"><div class="mut" style="font-size: 13px">ยอดเฉลี่ย/ออเดอร์</div><div style="font-size: 26px; font-weight: 700">฿[640]</div></div>
+<div class="card"><div class="mut" style="font-size: 13px">สมัครผ่าน</div><div style="font-size: 13px; margin-top: 6px">LINE [42%] · Google [23%] · โทรศัพท์ [21%] · Facebook [14%]</div></div>
+</div>
+<div class="card" style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center">
+<label style="flex: 1 1 240px; display: flex"><span style="position: absolute; left: -9999px">ค้นหา</span><input class="inp" placeholder="ค้นหาชื่อ / เบอร์ / อีเมล / เลขออเดอร์" style="flex: 1"></label>
+<select class="inp" aria-label="ระดับสมาชิก"><option>ทุกระดับ</option><option>Gold</option><option>Silver</option><option>ทั่วไป</option></select>
+<select class="inp" aria-label="ช่องทางสมัคร"><option>ทุกช่องทางสมัคร</option><option>LINE</option><option>Google</option><option>Facebook</option><option>เบอร์โทร</option></select>
+<select class="inp" aria-label="กลุ่ม"><option>ทุกกลุ่ม</option><option>ไม่ซื้อ 60 วัน</option><option>ซื้อเกิน 5 ครั้ง</option><option>เขต A</option></select>
+<select class="inp" aria-label="ภาษา"><option>ทุกภาษา</option><option>ไทย</option><option>English</option></select>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: start">
+<div class="card" style="flex: 3 1 560px; padding: 0; overflow: auto">
+<table>
+<thead><tr><th>ลูกค้า</th><th>ระดับ</th><th>สมัครผ่าน</th><th>ออเดอร์</th><th>ยอดรวม</th><th>ล่าสุด</th><th>เขต</th></tr></thead>
+<tbody>
+<tr style="background: #FFFBEA"><td><b>[คุณสมใจ ใจดี]</b><div class="mut" style="font-size: 12px">[08x-xxx-xx12]</div></td><td><span class="pill" style="background: #D9AD28; color: #3A2410">Gold</span></td><td>LINE</td><td>14</td><td>฿[9,860]</td><td>[วันนี้]</td><td>A</td></tr><tr style="background: #FFFFFF"><td><b>[คุณสมชาย]</b><div class="mut" style="font-size: 12px">[08x-xxx-xx12]</div></td><td><span class="pill" style="background: #EEF1EF; color: #18201B">Silver</span></td><td>Google</td><td>6</td><td>฿[3,420]</td><td>[2 วัน]</td><td>B</td></tr><tr style="background: #FFFFFF"><td><b>[Ms. Anna]</b><div class="mut" style="font-size: 12px">[08x-xxx-xx12]</div></td><td><span class="pill" style="background: #EAF4EE; color: #005E2A">ทั่วไป</span></td><td>Facebook</td><td>2</td><td>฿[890]</td><td>[1 สัปดาห์]</td><td>นอกเขต</td></tr><tr style="background: #FFFFFF"><td><b>[คุณมานี]</b><div class="mut" style="font-size: 12px">[08x-xxx-xx12]</div></td><td><span class="pill" style="background: #D9AD28; color: #3A2410">Gold</span></td><td>เบอร์โทร</td><td>11</td><td>฿[7,150]</td><td>[3 วัน]</td><td>C</td></tr><tr style="background: #FFFFFF"><td><b>[คุณปิติ]</b><div class="mut" style="font-size: 12px">[08x-xxx-xx12]</div></td><td><span class="pill" style="background: #EAF4EE; color: #005E2A">ทั่วไป</span></td><td>LINE</td><td>1</td><td>฿[350]</td><td>[1 เดือน]</td><td>A</td></tr><tr style="background: #FFFFFF"><td><b>[คุณชูใจ]</b><div class="mut" style="font-size: 12px">[08x-xxx-xx12]</div></td><td><span class="pill" style="background: #EEF1EF; color: #18201B">Silver</span></td><td>LINE</td><td>5</td><td>฿[2,980]</td><td>[5 วัน]</td><td>B</td></tr><tr style="background: #FFFFFF"><td><b>[Mr. John]</b><div class="mut" style="font-size: 12px">[08x-xxx-xx12]</div></td><td><span class="pill" style="background: #EAF4EE; color: #005E2A">ทั่วไป</span></td><td>Google</td><td>1</td><td>฿[1,200]</td><td>[2 เดือน]</td><td>นอกเขต</td></tr><tr style="background: #FFFFFF"><td><b>[คุณวีระ]</b><div class="mut" style="font-size: 12px">[08x-xxx-xx12]</div></td><td><span class="pill" style="background: #EAF4EE; color: #005E2A">ทั่วไป</span></td><td>เบอร์โทร</td><td>3</td><td>฿[1,540]</td><td>[3 สัปดาห์]</td><td>C</td></tr>
+</tbody>
+</table>
+</div>
+<aside class="card" style="flex: 1 1 300px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; gap: 12px; align-items: center"><div style="width: 52px; height: 52px; border-radius: 999px; background: #EAF4EE; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #005E2A">ส</div><div><div style="font-weight: 700">[คุณสมใจ ใจดี]</div><div class="mut" style="font-size: 13px">สมาชิกตั้งแต่ [มี.ค. 2026] · ภาษา ไทย</div></div></div>
+<div style="display: flex; gap: 6px; flex-wrap: wrap"><span class="pill" style="background: #D9AD28; color: #3A2410">Gold</span><span class="pill" style="background: #EAF4EE; color: #005E2A">LINE ✓</span><span class="pill" style="background: #EAF4EE; color: #005E2A">Google ✓</span><span class="pill" style="background: #EAF4EE; color: #005E2A">เบอร์ยืนยันแล้ว</span></div>
+<div class="kv"><span class="mut">ออเดอร์ทั้งหมด</span><b>[14]</b></div>
+<div class="kv"><span class="mut">ยอดซื้อสะสม</span><b>฿[9,860]</b></div>
+<div class="kv"><span class="mut">แต้มคงเหลือ</span><b>[420]</b></div>
+<div class="kv"><span class="mut">ช่องทางที่ซื้อบ่อย</span><span>เว็บ · แอป</span></div>
+<div class="kv"><span class="mut">ที่อยู่หลัก</span><span>[เขต A · 10xxx]</span></div>
+<div class="kv"><span class="mut">ความยินยอม PDPA</span><span>การตลาด ✓ · วิเคราะห์ ✓</span></div>
+<div style="font-weight: 700; font-size: 14px; margin-top: 4px">ไทม์ไลน์</div>
+<div class="mut" style="font-size: 13px; line-height: 1.8">[วันนี้] สั่ง D7-000124 · ฿1,250<br>[3 วันก่อน] ใช้คูปอง D7NEW<br>[1 สัปดาห์] แชท CS เรื่องจัดส่ง</div>
+<label style="display: flex; flex-direction: column; gap: 4px; font-size: 13px">โน้ตภายใน<textarea class="inp" rows="2" style="padding: 8px 12px"></textarea></label>
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><button class="btn">ให้คูปอง</button><button class="btn2">ดูออเดอร์</button><button class="btn2" style="color: #9B6B29">คำขอลบข้อมูล</button></div>
+</aside>
+</div>
+</main>
+</div>
+</body></html>
