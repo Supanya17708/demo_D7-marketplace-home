@@ -1,0 +1,28 @@
+/* ปรับหน้าร้านให้ใช้บนมือถือได้ (หน้าแรกมี CSS ของตัวเองอยู่แล้ว) */
+html{-webkit-text-size-adjust:100%}
+body{overflow-x:hidden}
+img{max-width:100%}
+@media (max-width:900px){
+ header>div{grid-template-columns:auto 1fr!important;padding:8px 16px!important;gap:6px 8px!important}
+ header>div>a{order:1}
+ header>div>a img{height:60px!important}
+ header>div>div{order:2}
+ header nav{grid-column:1/-1;order:3;flex-wrap:nowrap!important;overflow-x:auto;gap:0 18px!important;font-size:14px!important;scrollbar-width:none;-webkit-overflow-scrolling:touch;margin:0 -16px;padding:0 16px}
+ header nav::-webkit-scrollbar{display:none}
+ header nav a{white-space:nowrap;flex:none}
+}
+@media (max-width:560px){
+ .demo{font-size:12px!important}
+ h1{font-size:30px!important;line-height:1.25!important}
+ h2{font-size:22px!important}
+ [style*="max-width: 1200px"],.w{padding-left:16px!important;padding-right:16px!important}
+ header [role="group"] button{min-width:40px!important}
+ header>div>div{gap:6px!important}
+ section>div[style*="max-width: 1200px"]{padding-top:28px!important}
+ [style*="height: 540px"]{height:420px!important}
+ [style*="font-size: 120px"]{font-size:72px!important}
+ [style*="width: 420px; height: 420px"]{width:300px!important;height:300px!important;margin:-150px 0 0 -150px!important}
+ [style*="height: 420px; border-radius: 28px"]{height:240px!important}
+ [style*="padding: 48px 24px"]{padding:32px 16px!important}
+ footer>div,div[style*="background: #603814"]>div{padding-left:16px!important;padding-right:16px!important}
+}
